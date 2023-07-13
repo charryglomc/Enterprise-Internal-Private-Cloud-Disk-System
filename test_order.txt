@@ -1,0 +1,34 @@
+upload file6                     --------上传
+download dir1/dir2/file5                 -------下载    删除file5
+download dir1/dir2/file5     ctrl+c    ------断点下载            winscp看实际大小   md5sum看md5
+upload file7             -------断点上传
+cd dir1/dir3    md5sum  file1.pdf       upload    file1.pdf                  ------文件秒传
+
+ls  dir1
+ls /clp/dir1  
+ls  ./dir1/.././dir1
+
+cp file1  ./dir1/dir2        -------拷贝到存在的dir2中
+cp dir1/dir2 dir3           -------不存在的dir3，复制dir1为dir3
+cp /clp/dir1/dir2 dir3           -------拷贝到存在的dir3
+
+
+tree 
+tree /clp/dir1
+tree dir1/..//././/dir1
+
+mkdir dir1/dir4
+
+pwd
+cd   dir1
+pwd
+
+cd ./dir1/////dir3/./././..////
+
+mv file1 file8                 -------重命名
+mv file1 dir1/dir2          --------移动
+mv /clp/dir1/dir2  dir1/dir3     --------移动
+
+rm dir1/file3
+cp dir1 dir4
+rm ./dir4/dir2/..              ------ 删除文件文件夹
